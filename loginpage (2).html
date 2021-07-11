@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{ 
+ background-image: url('pngtree-blue-technology-background-banner-image_125518.jpg');
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 8px;
+}
+td,th {
+  text-align: center;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #eee;
+}
+#t01 th {
+  background-color: #fff;
+  color: white;
+}
+#t01{
+	background-color: #eee;
+	border-radius:80px;
+	border: #c3ffff;
+	border-width: thick;
+	border-style: solid;
+	padding:45px;
+	width:70px;
+	height:100px;
+}
+th,h1{
+	font-family:Times New Roman;
+		} 
+
+	<title>Login Page</title>
+</style>
+</head>
+<body>
+<h1 style="color: #c3ffff;">ZAIRZA SKILL++ </h1> 	
+	<center>
+		<h1 style="color: #c3ffff;">Sign Up Form</h1>
+
+		<form action="Login.php" method="post">
+		
+				<table id="t01">
+					<tr>
+						<th style="color: blue;">Name</th>
+						<td>
+						<input type="text" name="user">
+						</td>
+					</tr>
+
+					<tr>
+						<th style="color: blue;">Address</th>
+						<td>
+						<input type="text" name="user">
+						</td>
+					</tr>
+					<tr>
+						<th style="color:blue;">Phone number</th>
+						<td>
+						<input type="tel" name="number">
+						</td>
+					</tr>
+					<tr>
+						<th style="color: blue;">Email ID</th>
+						<td>
+						<input type="email" id="name" name="email">
+						</td>
+					</tr>
+					<tr>
+						<style>
+							span,input{
+								color: blue
+							}
+							span,input{
+								font-weight: bold;
+								font-family: Times New Roman;
+							}
+						</style>
+						<td>
+						&nbsp;&nbsp;
+						<input type="radio" name="text"
+						id="name">
+						&nbsp;
+						<span id="name">Hardware</span><br>
+						&nbsp;&nbsp;
+						<input type="radio" name="text"
+						id="name">
+						&nbsp;
+						<span id="name">Software</span><br>
+						&nbsp;&nbsp;
+						<input type="radio" name="text"
+						id="name">
+						&nbsp;
+						<span id="name">Design</span><br>
+					</td>
+					</tr>
+					<tr><td>
+					<form action="/Login.php">
+						<style>
+							label{
+								color: blue
+							}
+							option,select{
+								color: blue
+							}
+							label,option,select{
+								font-family: Times New Roman;
+								font-weight: bold;
+							}
+						</style>
+						<label for="skill">Choose a skill:
+						</label>
+						<select name="skill" id="skill">
+							<option value="HTML">HTML</option>
+							<option value="CSS">CSS</option>
+							<option value="Java">Java</option>
+							<option value="python">python</option>
+
+						</select>
+					</form></td></tr>
+
+					</tr>
+					<tr>
+							<form class="pure-form">
+							<td>
+							<fieldset>
+							<input type="Password"
+							placeholder="Password" id="password" required>
+							</fieldset></td>
+							<td>
+							<fieldset>
+					 		<input type="password"			
+							placeholder="confirm_password"
+							id="confirm_password" required>
+							</fieldset></td>
+							</form>
+					</tr>	
+					<tr>
+						<td>
+							<center>
+								<style>
+							input{
+								color: blue;
+							}
+							input{
+								font-family: Times New Roman;
+								font-weight: bold;
+							}
+							</style>
+								<input type="submit" name="submit"
+								value="Send">
+							</center>
+						</td>
+					</tr>
+				</fieldset>
+				</table>
+			</form>
+	</center>
+
+</body>
+</html>
